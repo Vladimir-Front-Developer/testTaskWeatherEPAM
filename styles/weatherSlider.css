@@ -1,0 +1,49 @@
+ol{
+	margin: 0;
+	padding: 0;	
+}
+li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#weatherComponent{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 900px;
+	min-height: 300px;
+	background-color: #f4f4f4;
+}
+#backDay{
+	display: flex;
+	align-items: center;
+	width: 50px;
+	height: 280px;
+}
+.weatherList{
+	display: flex;
+	justify-content: space-between;
+	width: 750px;
+	height: 280px;
+}
+.weatherItem{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 180px;
+	align-items: center;
+	background-color: #fff;
+}
+#dayWeek{}
+#weatherIcon{}
+#date{}
+#daytimeTemperature{}
+#eveningTemperature{}
+#precipitation{}
+#nextDay{
+	display: flex;
+	align-items: center;
+	width: 50px;
+	height: 280px;
+}
